@@ -11,7 +11,7 @@ so the folks at Stypi can block it if anything goes amok.
 
 `python /path/to/stypi-sync/stypi-sync.py`
 
-(or use an <a href="http://en.wikipedia.org/wiki/Alias_(command)">alias</a>!)
+(or use an <a href="http://en.wikipedia.org/wiki/Alias_(command)">alias</a>! In your ~/.bashrc: `alias stypi-sync="python /path/stypi-sync.py"`)
 
 This reads stypi-sync.json in your working directory to configure itself. It has a format like this:
 
