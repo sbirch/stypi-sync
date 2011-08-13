@@ -2,6 +2,10 @@
 
 stypi-sync makes it easy to synchronize <a href="http://www.stypi.com">Stypi</a>
 documents to local storage so you can edit code collaboratively and run it locally.
+Right now it's very much alpha software -- certainly don't use it for anything you
+don't have backed up or can't afford to lose changes to. If you want to improve
+it, please contribute! And if you fork, please maintain the user-agent format
+so the folks at Stypi can block it if anything goes amok.
 
 ### Quick start:
 
