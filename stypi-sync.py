@@ -132,11 +132,13 @@ def synchronize(id_map):
         get_most_recent_revision(id, session, add_to_queue)
         time.sleep(0.1)
     
+    print 'Downloading %d files' % len(id_map)
+    
     last_left = -1
     while True:
         left = sum([1 for x in recv_map if recv_map[x] == None])
         if left != last_left:
-            print '%d remaining' % left
+            print '%d remaining to be downloaded' % left
             last_left = left
         if left == 0:
             break
