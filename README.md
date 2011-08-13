@@ -1,5 +1,8 @@
 ## stypi-sync: Synchronize Stypi documents to local storage.
 
+stypi-sync makes it easy to synchronize <a href="http://www.stypi.com">Stypi</a>
+documents to local storage so you can edit code collaboratively and run it locally.
+
 ### Quick start:
 
 `python /path/to/stypi-sync/stypi-sync.py`
