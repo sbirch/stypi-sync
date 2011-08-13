@@ -2,16 +2,13 @@
 
 ### Quick start:
 
-`<code>python /path/to/stypi-sync/stypi-sync.py</code>`
+`python /path/to/stypi-sync/stypi-sync.py`
 
-This reads stypi-sync.json in your working directory as configuration. It has the format:
+(or use an <a href="http://en.wikipedia.org/wiki/Alias_(command)">alias</a>!)
 
-`<code>{
-    "files":{
-        "sandbox.html": "http://www.stypi.com/someid",
-        "code.js": "http://www.stypi.com/anotherone"
-    }
-}</code>`
+This reads stypi-sync.json in your working directory to configure itself. It has a format like this:
+
+`{"files":{"sandbox.html": "http://www.stypi.com/someid","code.js": "http://www.stypi.com/anotherone"}}`
 
 Press enter to synchronize, kill with CTRL-C.
 
