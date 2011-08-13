@@ -2,18 +2,20 @@
 
 ### Quick start:
 
-`python /path/to/stypi-sync/stypi-sync.py`
+`<code>python /path/to/stypi-sync/stypi-sync.py</code>`
 
 This reads stypi-sync.json in your working directory as configuration. It has the format:
 
-`{
+`<code>{
     "files":{
         "sandbox.html": "http://www.stypi.com/someid",
         "code.js": "http://www.stypi.com/anotherone"
     }
-}`
+}</code>`
 
 Press enter to synchronize, kill with CTRL-C.
+
+That's about it!
 
 ### To Stypi:
 
