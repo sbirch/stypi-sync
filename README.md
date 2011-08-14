@@ -13,11 +13,13 @@ so the folks at Stypi can block it if anything goes amok.
 
 (or use an <a href="http://en.wikipedia.org/wiki/Alias_(command)">alias</a>! In your ~/.bashrc: `alias stypi-sync="python /path/stypi-sync.py"`)
 
-This reads stypi-sync.json in your working directory to configure itself. It has a format like this:
+This reads stypi-sync.json in your working directory to configure itself. That has a format like this:
 
 `{"files":{"sandbox.html": "http://www.stypi.com/someid","code.js": "http://www.stypi.com/anotherone"}}`
 
 Press enter to synchronize, kill with CTRL-C.
+
+Note that stypi-sync is one-way only! It synchronizes from Stypi to your local storage. (It's assumed that you'll edit using Stypi right now.)
 
 That's about it!
 

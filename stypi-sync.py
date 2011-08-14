@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 """
 stypi-sync -- Synchronize Stypi documents to local storage.
 
